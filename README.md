@@ -1,9 +1,54 @@
-# SEG3502 — Lab 8
+# SEG3502 — Laboratoire 8 — Employee List (GraphQL)
 
-**Progress: 50% done / 50% remaining**
+## Authors
 
-**Done (50%)**
-- Completed `server/src/main/resources/graphql/employee.graphqls` with the employee type, input type, `employees` query, and `newEmployee` mutation for the supplied Angular client.
+- Andrianina Rakotobe(300428674)
+- Darcy-Joel Kabura(300432705)
 
-**Remaining (50%)**
-- Implement `EmployeesResolver.kt` to read employees from MongoDB and save new employees, then verify both operations with the supplied Angular client.
+## Installation
+
+1. Clone the repository and move into the project folder:
+
+   ```bash
+   git clone https://github.com/ThunderX500/LAB-8
+   cd LAB-8
+   ```
+
+2. Install the client dependencies:
+
+   ```bash
+   cd client
+   npm install
+   ```
+
+3. Make sure a MongoDB server is running on port 27017 (database `books-mongo`).
+
+## Usage
+
+- Start the GraphQL server (Spring Boot + Kotlin, port 9000):
+
+  ```bash
+  cd server
+  ./gradlew bootRun
+  ```
+
+- Start the Angular development client:
+
+  ```bash
+  cd client
+  npm start
+  ```
+
+- Run the client unit tests (Karma + Jasmine):
+
+  ```bash
+  cd client
+  npm test
+  ```
+
+- Run the server tests (JUnit):
+
+  ```bash
+  cd server
+  ./gradlew test
+  ```
