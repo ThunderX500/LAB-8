@@ -2,9 +2,6 @@
 
 ## Authors
 
-- Andrianina Rakotobe(300428674)
-- Darcy-Joel Kabura(300432705)
-
 ## Installation
 
 1. Clone the repository and move into the project folder:
